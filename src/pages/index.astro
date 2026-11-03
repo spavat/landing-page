@@ -2,8 +2,12 @@
 import "../styles/global.css";
 import Layout from "../layouts/Layout.astro";
 import Welcome from "../components/Welcome.astro";
+import Projects from "../components/Projects.astro";
 ---
 
 <Layout>
-	<Welcome />
+	<div class="min-h-screen bg-black text-white">
+		<Welcome />
+		<Projects />
+	</div>
 </Layout>
