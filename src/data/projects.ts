@@ -9,6 +9,7 @@ export interface Project {
 
 export const projects: Project[] = [
 	{
+		icon: "🏠",
 		name: "Landing Page",
 		description: "This page. Whatever.",
 		repo: "https://github.com/spavat/landing-page",
@@ -20,7 +21,7 @@ export const projects: Project[] = [
 		description: "Life Tracker - Started as Markdown files, now a full stack web application. But mostly private stuff.",
 		url: "https://tracker.spvt.fr",
 		repo: "https://github.com/spavat/personal-tracker",
-		tags: ["Node.js", "Fastify", "PostgreSQL", "TypeScript", "React"],
+		tags: ["Node.js", "Nest.js", "PostgreSQL", "MongoDB", "TypeScript", "React", "Tanstack"],
 	},
 	{
 		icon: "🎭",
